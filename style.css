@@ -2,40 +2,53 @@
     display: block;
     margin: 8px;
 }
-.menu {
-    float: right;
-    margin: 1px 0 20px 10px;
+block1 {
+    margin: 22px;
+    padding: 19px;
 }
 .h1 {
-   margin: 20px 30px 30px 10px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+}
+.navmenu {
+    float: right; 
+    display: inline-block;
+}
+ul {
+    display: inline-block;
+}
+li {
+    display: inline-block;  
+}
+a {
+    color: black;
 }
 .myart {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    left: 21px;
-    }
-    .h2{
-   font-size: 250%;
-    white-space: nowrap;
-    position: absolute;
-    top: 528px;
+    position: relative
     width: 100%;
-    left: 29px;
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
     }
-    .h3{
-    font-size: 93%;
-    white-space: nowrap;
-    position: relative;
-    top: 207px;
-    right: -21px;
+    .arttag {
+        margin: 1px;
     }
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+h2 span {
+   color: white; 
+   font: bold 22px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h2 span.spacer {
+    padding: 0 5px;
+    font: bold 22px/45px Helvetica, Sans-Serif;
+}
     .picrow {
     position: absolute;
     bottom: 10px;
